@@ -4,13 +4,13 @@
 
 
 
-Console.WriteLine("Введите первое натуральное число");
+Console.WriteLine("Введите первое число");
 int a = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите второе натуральное число");
+Console.WriteLine("Введите второе число, натуральное");
 int b = Convert.ToInt32(Console.ReadLine());
 
-if (a<1 || b<1) Console.WriteLine("Введены некорректные данные");
+if (b<1) Console.WriteLine("Введены некорректные данные");
 double result = Math.Pow(a,b);
 int count = 1;
 while (count<=b) 
